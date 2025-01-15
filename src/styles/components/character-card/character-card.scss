@@ -1,5 +1,17 @@
 .character-card {
+    min-width: 50px;
+    min-height: 100px;
+    max-width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    // justify-content: center;
+    gap: 10px;
+    align-items: center;
     background-color: grey;
-    min-width: 100px;
-    min-height: 150px;
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
 }
