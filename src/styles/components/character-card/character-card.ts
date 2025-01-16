@@ -1,4 +1,4 @@
-import "./character-card.scss"; 
+import "./character-card.scss";
 
 export const characterCard = (name: string, age: number, profession: string, imageUrl: string) => {
     const c = document.createElement("article") as HTMLElement;
